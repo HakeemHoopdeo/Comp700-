@@ -1,0 +1,19 @@
+Download the folder off my github:
+Link:https://github.com/HakeemHoopdeo/Comp700-
+
+Open up the project in Intellij IDEA.
+For simplicity, the CustomAI Algorithms are all runnable classes.
+You can run LeftOnly, RightOnly and Mirror separately as they all have main methods.
+
+There are two more classes that were used during development for player vs AI:
+C4MiniMaxPlayerAI.java and C4MCSTPlayerAI.java 
+Both of which allows you to play against the different AI algorithms.
+The MiniMax displays the board upside down - this was irrelevant as I was not using it for testing.
+
+The core class required for this project is MCSTvMiniMax:
+That's where the magic happens between the AI. There are three variables that you can control:
+-noOfGames
+-miniMaxDepth
+-monteCarloTime
+These are parameters that you can tweak to change the performance of the AI.
+
